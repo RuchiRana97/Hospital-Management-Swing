@@ -26,6 +26,21 @@ A robust and user-friendly Hospital Management System developed using **Java**, 
 ---
 
 ## 📂 Project Structure
+hospital-management-system/
+├── java/ # Java-based desktop components
+├── php/ # Web-based modules
+├── sql/ # Database schema and SQL dump
+├── README.md # Project documentation
+
+
+---
+
+## 🧩 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/RuchiRana97/Hospital-management-system.git
+
 
 2. Database Configuration
 Launch phpMyAdmin
