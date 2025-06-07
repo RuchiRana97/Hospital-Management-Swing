@@ -1,0 +1,26 @@
+CREATE DATABASE hp;
+use hp;
+
+CREATE TABLE roomtbl (
+    RNum INT(11) NOT NULL PRIMARY KEY,
+    RName VARCHAR(50),
+    RType VARCHAR(30),
+    RStatus VARCHAR(20),
+    Price INT(11)
+);
+CREATE TABLE BookingTbl (
+    BNum INT(11) NOT NULL PRIMARY KEY,
+    Room INT(11),
+    patient INT(11),
+    BDate VARCHAR(50),
+    Duration INT(11),
+    Cost INT(11)
+);
+CREATE TABLE patient (
+    PNum INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    PName VARCHAR(50),
+    PPhone VARCHAR(50),
+    PGen VARCHAR(10),
+    PAdd VARCHAR(50),
+    PDob VARCHAR(50)
+);
